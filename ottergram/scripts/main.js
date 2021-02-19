@@ -1,7 +1,6 @@
 /*jslint browser:true*/
 var NEXT_SELECTOR = '[data-button-role="next"]';
 var PREVIOUS_SELECTOR = '[data-button-role="previous"]';
-
 var DETAIL_IMAGE_SELECTOR = '[data-image-role="target"]';
 var DETAIL_TITLE_SELECTOR = '[data-image-role="title"]';
 var DETAIL_FRAME_SELECTOR = '[data-image-role="frame"]';
@@ -9,7 +8,6 @@ var THUMBNAIL_LINK_SELECTOR = '[data-image-role="trigger"]';
 var HIDDEN_DETAIL_CLASS = 'hidden-detail';
 var TINY_EFFECT_CLASS = 'is-tiny';
 var ESC_KEY = 27;
-
 var index = 0;
 
 function setDetails(imageUrl, titleText) {
